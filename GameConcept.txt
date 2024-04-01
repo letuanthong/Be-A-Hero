@@ -1,0 +1,81 @@
+Tên game: Be A Hero
+
+Thể loại : Game offline có cốt truyện
+
+ 
+
+Requirements:
+
+    + Mục tiêu xây dựng một game indie dựa trên những kiến thức đã được học trong lớp và tìm hiểu thêm kiến thức bên ngoài để hoàn thiện game
+
+    + Thực hiện game trên nền tảng Unity
+
+    + Chức năng hệ thống bao gồm :
+
+-       Di chuyển và tương tác với đối tượng trong game: Cho phép người chơi điều khiển nhân vật hoặc các đối tượng khác trong game bằng cách sử dụng bàn phím, chuột hoặc cảm ứng.
+
+-       Hệ thống va chạm và phản ứng vật lý: Xử lý va chạm giữa các đối tượng trong game và áp dụng các luật vật lý để mô phỏng các hành vi như đàn hồi, ma sát, và trọng lực.
+
+-       Hình ảnh và hiệu ứng đồ họa: Hiển thị các hình ảnh, đồ họa và hiệu ứng chất lượng cao để tạo ra trải nghiệm hấp dẫn và đồng nhất với ý tưởng và phong cách của game.
+
+-       Âm nhạc và âm thanh: Sử dụng âm nhạc và hiệu ứng âm thanh để tạo ra không khí, cảm xúc và cung cấp thông điệp cho người chơi.
+
+-       Cấp độ và cơ chế tiến triển: Xây dựng cấp độ, thách thức và hệ thống tiến triển để giữ cho người chơi quan tâm và tiếp tục chơi game.
+
+-       Hệ thống lưu trữ và quản lý dữ liệu: Lưu trữ và quản lý dữ liệu game của người chơi, bao gồm tiến trình, cấp độ hoàn thành, cài đặt cá nhân.
+
+-       Giao diện người dùng (UI) và trải nghiệm người dùng (UX): Thiết kế giao diện người dùng hấp dẫn và dễ sử dụng để cung cấp trải nghiệm người dùng tốt nhất có thể. Điều này bao gồm cả các menu, hộp thoại, và điều hướng trong game.
+
+ 
+
+ 
+
+Mô tả:
+
+1. Cốt truyện:
+
+   Trong thế giới ảo Rarel, vương quốc này đang chìm trong bóng tối do sự xâm chiếm của các thế lực tà ác. Nhà vua đã thất bại trong việc bảo vệ đất nước và công chúa của vương quốc đã bị bắt cóc. Trước nguy cơ mất mát và nguy hiểm trước mắt, một nông dân trẻ tuổi, mang trong mình ước mơ trở thành anh hùng, đã bước lên hành trình đánh bại thế lực tà ác và giải cứu vương quốc khỏi sự kiểm soát của chúng.
+
+2. Cách chơi:
+
+   Người chơi sẽ đảm nhận vai trò của người anh hùng trẻ tuổi, điều khiển nhân vật di chuyển qua các cấp độ khác nhau trong vương quốc Rarel. Trên đường đi, người chơi sẽ phải đối mặt với các con quái vật và thủ lĩnh tà ác. Cuối mỗi cấp độ là một trận đấu với một Boss quái vật mạnh mẽ. Người chơi có thể thu thập đồng vàng để mua các vật phẩm, trang bị và nâng cấp kỹ năng.
+
+3. Các nhân vật:
+
+   - Nhân vật chính: Người anh hùng trẻ tuổi, người sẽ dẫn dắt người chơi qua hành trình giải cứu vương quốc.
+
+   - Quái vật: Đây là những kẻ địch đáng sợ, có nhiều hình dạng và kỹ năng khác nhau, đặc biệt là Boss quái vật ở cuối mỗi cấp độ.
+
+   - Boss: Những con quái vật mạnh mẽ và khó khăn, yêu cầu sự chiến đấu thông minh và kỹ năng tốt từ người chơi.
+
+   - NPC: Các nhân vật không phải người chơi hoặc quái vật, nhưng có thể cung cấp hỗ trợ, nhiệm vụ hoặc thông tin quan trọng cho người chơi.
+
+4. Vật phẩm:
+
+   - Đồng vàng: Được sử dụng để mua các vật phẩm hữu ích như potion hồi máu, trang bị và vật phẩm nâng cấp khác. Mỗi lượng đồng vàng thu thập được cũng có thể tăng lượng máu cho nhân vật của người chơi khi đạt một ngưỡng nhất định.
+
+            5. Hệ thống chiến đấu đa dạng:
+
+- Người chơi có thể sử dụng một loạt các kỹ năng và trang bị để đối phó với các quái vật và Boss. Tính toán chiến thuật và sử dụng các phản ứng phù hợp là chìa khóa để chiến thắng.
+
+6. Cấp độ và thế giới rộng lớn:
+
+- Game có nhiều cấp độ với môi trường đa dạng từ rừng sâu đến hang động bí ẩn. Mỗi cấp độ mang đến một trải nghiệm mới và thú vị.
+
+7. Hệ thống nâng cấp:
+
+- Người chơi có thể nâng cấp nhân vật của mình thông qua việc tăng cường kỹ năng, sức mạnh và sức bền, giúp họ trở nên mạnh mẽ hơn để đối phó với những thách thức khó khăn.
+
+8. Trang bị và vật phẩm:
+
+- Ngoài việc thu thập đồng vàng, người chơi cũng có thể tìm thấy và mua các loại trang bị và vật phẩm khác nhau trong game, từ vũ khí đến áo giáp, từ potion hồi máu đến item hỗ trợ.
+
+9. Môi trường tương tác:
+
+- Một số khu vực trong game có thể tương tác được, người chơi có thể tìm kiếm bí mật, thám hiểm và phát hiện ra các bí ẩn của vương quốc.
+
+ 
+
+Trò chơi này hứa hẹn mang lại cho người chơi một trải nghiệm phiêu lưu đầy thách thức và kịch tính trong việc chiến đấu để giải cứu vương quốc khỏi sự ám ảnh của thế lực tà ác.
+
+Link : https://gitlab.duthu.net/S51900562/be-a-hero/-/blob/main/GameConcept.txt
