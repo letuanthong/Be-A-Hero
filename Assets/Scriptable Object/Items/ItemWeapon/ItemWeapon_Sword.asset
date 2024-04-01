@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a3387ac6d134c8b9eff02d48f7d6c4, type: 3}
+  m_Name: ItemWeapon_Sword
+  m_EditorClassIdentifier: 
+  ID: WeaponSword
+  Name: Sword
+  Icon: {fileID: 21300000, guid: f1f97fa2202d81c4f973cd060d061d52, type: 3}
+  Description: Swords help you attack at close range and deal enough damage.
+  ItemType: 0
+  IsConsumable: 0
+  IsStackable: 0
+  MaxStack: 1
+  Quantity: 0
+  Weapon: {fileID: 11400000, guid: 1fb27a795826044e681130cf633031ce, type: 2}

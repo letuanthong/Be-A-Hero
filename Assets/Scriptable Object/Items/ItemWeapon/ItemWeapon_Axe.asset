@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a3387ac6d134c8b9eff02d48f7d6c4, type: 3}
+  m_Name: ItemWeapon_Axe
+  m_EditorClassIdentifier: 
+  ID: WeaponAxe
+  Name: Axe
+  Icon: {fileID: 21300000, guid: a5b8293e5551a1a45910a3231bc90de1, type: 3}
+  Description: Rye helps you attack close range with more damage and consume more
+    stamina.
+  ItemType: 0
+  IsConsumable: 0
+  IsStackable: 0
+  MaxStack: 1
+  Quantity: 0
+  Weapon: {fileID: 11400000, guid: 10212caedb4ad44f1bac84ec4baf868c, type: 2}
