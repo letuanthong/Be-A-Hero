@@ -19,6 +19,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI healthTMP;
     [SerializeField] private TextMeshProUGUI staminaTMP;
     [SerializeField] private TextMeshProUGUI expTMP;
+    [SerializeField] private TextMeshProUGUI coinsTMP;
 
     [Header("Stats Panel")]
     [SerializeField] private GameObject statsPanel;
@@ -32,6 +33,11 @@ public class UIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI strengthPointTMP;
     [SerializeField] private TextMeshProUGUI dexterityTMP;
     [SerializeField] private TextMeshProUGUI intelligenceTMP;
+
+    [Header("Extra Panels")]
+    [SerializeField] private GameObject npcQuestPanel;
+    [SerializeField] private GameObject playerQuestPanel;
+    [SerializeField] private GameObject shopPanel;
 
     private void Update()
     {
@@ -47,6 +53,21 @@ public class UIController : MonoBehaviour
         }
     }
 
+    public void OpenCloseNPCQuestPanel(bool value)
+    {
+        npcQuestPanel.SetActive(value);
+    }
+
+    public void OpenClosePlayerQuestPanel(bool value)
+    {
+        playerQuestPanel.SetActive(value);
+    }
+
+    public void OpenCloseShopPanel(bool value)
+    {
+        shopPanel.SetActive(value);
+    }
+
     private void UpdatePlayerUI()
     {
         healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, stats.Health / stats.MaxHealth, 10f * Time.deltaTime);
@@ -57,6 +78,7 @@ public class UIController : MonoBehaviour
         healthTMP.text = $"{stats.Health} / {stats.MaxHealth}";
         staminaTMP.text = $"{stats.Stamina} / {stats.MaxStamina}";
         expTMP.text = $"{stats.CurrentExp} / {stats.NextLevelExp}";
+        coinsTMP.text = CoinController.Instance.Coins.ToString();
 
     }
 
@@ -79,13 +101,28 @@ public class UIController : MonoBehaviour
         UpdateStatsPanel();
     }
 
+    private void ExtraInteractionCallback(InteractionType type)
+    {
+        switch (type)
+        {
+            case InteractionType.Quest:
+                OpenCloseNPCQuestPanel(true);
+                break;
+            case InteractionType.Shop:
+                OpenCloseShopPanel(true);
+                break;
+        }
+    }
+
     private void OnEnable()
     {
         PlayerUpgrade.OnPlayerUpgradeEvent += UpgradeCallback;
+        DialogueController.OnExtraInteractionEvent += ExtraInteractionCallback;
     }
 
     private void OnDisable()
     {
         PlayerUpgrade.OnPlayerUpgradeEvent -= UpgradeCallback;
+        DialogueController.OnExtraInteractionEvent -= ExtraInteractionCallback;
     }
 }
