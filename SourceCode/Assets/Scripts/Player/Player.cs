@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     [Header("Test")]
     public ItemHealthPotion HealthPotion;
-    //public ItemManaPotion ManaPotion;
+    //public ItemManaPotion StaminaPotion;
 
     private void Awake()
     {
@@ -36,9 +36,9 @@ public class Player : MonoBehaviour
                 Debug.Log("Using Health Potion");
             }
 
-            //if (ManaPotion.UseItem())
+            //if (StaminaPotion.UseItem())
             //{
-            //    Debug.Log("Using Mana Potion");
+            //    Debug.Log("Using Stamina Potion");
             //}
         }
     }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Boss_DemonCyclop
+  m_Controller: {fileID: 9100000, guid: f9af5ae990c9140258784cf9903093ef, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3ea57e11c7b45450ba579517ee2f132c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 74bf4d5f98c6747d384920197f794b68, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5687bf2b50f934446bf86813e3afbdaf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5631ec4c3965841a59a77b35b97f1a70, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ee5152441af36468f9fe34340124540b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5fcc7d57685b443009b207aae4a9f4e4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9777bf548092f43818abd83d93095e43, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e0053b5d5908342fb82f2825b64043c5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d7df6616e28084ce7b9ea1d4f189303e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f126454d172a34fcc87dc3c967162e99, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7713c6a92150343ca9952f89e5d6e602, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7713c6a92150343ca9952f89e5d6e602, type: 2}

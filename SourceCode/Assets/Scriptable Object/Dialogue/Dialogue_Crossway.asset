@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede08bc0897e9403eb2fe70b42f74ef9, type: 3}
+  m_Name: Dialogue_Crossway
+  m_EditorClassIdentifier: 
+  Name: Monk
+  Icon: {fileID: 21300000, guid: 36d978fc9f0d04bc597dc85ce5b1e16e, type: 3}
+  HasInteraction: 0
+  InteractionType: 0
+  Greeting: Help me
+  Dialogue:
+  - There are monsters all around here and now I don't know what to do
+  - You don't know the way
+  - Above is the sand village. Below is the leaf village. Going straight is the forest

@@ -5,7 +5,49 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 339a60bba217545d49839d8697fdd393
+  - enabled: 1
+    path: Assets/Scenes/Scenes/OpeningScene.unity
+    guid: ebf84c030f7996a439db72eafb8e99b4
+  - enabled: 1
+    path: Assets/Scenes/Scenes/BigJungle.unity
+    guid: c1e89013a1f85284fa8c428f4b97738d
+  - enabled: 1
+    path: Assets/Scenes/Scenes/CrossWay.unity
+    guid: 29343fd9ae8cfe74e8f1c7c74b9a232e
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Dungeon.unity
+    guid: 7fbcdecb1a2dbeb4d93d693bdc12d471
+  - enabled: 1
+    path: Assets/Scenes/Scenes/MapBoss.unity
+    guid: f3fc70cde86f63147989012ffcdb581e
+  - enabled: 1
+    path: Assets/Scenes/Scenes/SampleScene.unity
+    guid: 1ea6e177f13874e93bf526d7c6595016
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Sand Boss.unity
+    guid: e23dd05a6ca705947a84942bb9dcef19
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Sand land.unity
+    guid: 9ffb200f511927646b247f2afb8a1f42
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Sand land 1.unity
+    guid: 1a398cfcbc530b54995b6ba95c1cdc71
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Swam.unity
+    guid: 086378fd7020187429be021a71c59754
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Swam Village.unity
+    guid: 7bffa0e31c9137b4eafbd865fc9a2614
+  - enabled: 1
+    path: Assets/Scenes/Scenes/SwamBoss.unity
+    guid: e1878e4fbe9f5d0479ca9e1a699f3a2e
+  - enabled: 1
+    path: Assets/Scenes/Scenes/TransOpening.unity
+    guid: cfa630aa34b849e46899295ffae03eaf
   m_configObjects: {}
